@@ -1,37 +1,73 @@
-## Welcome to GitHub Pages
+/* ------------------------------------------------------
+Template Name: Alime - Photography HTML Template
+Template Author: Colorlib
+Template Author URI: https://colorlib.com
+Version: 1.0.0
+Last Update: Feb 22, 2019
+----------------------------------------------------- */
 
-You can use the [editor on GitHub](https://github.com/srgssj/Web/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
+/* --------------------------------
+To start 'Gulp' => npm run start
+-------------------------------- */
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
-
-### Markdown
-
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/srgssj/Web/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+File Structure:
+alime/
+└── src/
+    ├── css/
+    │   ├── default-assets/
+    │   ├── fonts/
+    │   ├── animate.css
+    │   ├── bootstrap.min.css
+    │   ├── font-awesome.min.css
+    │   ├── magnific-popup.css
+    │   ├── nice-select.css
+    │   ├── owl.carousel.min.css
+    │   ├── style.css
+    ├── fonts/
+    ├── img/
+    │   ├── bg-img/
+    │   ├── core-img/
+    ├── js/
+    │   ├── default-assets/
+    │   ├── alime.bundle.js
+    │   ├── bootstrap.min.js
+    │   ├── imagesloaded.pkgd.min.js
+    │   ├── isotope.pkgd.min.js
+    │   ├── jarallax-video.min.js
+    │   ├── jarallax.min.js
+    │   ├── jquery.countdown.min.js
+    │   ├── jquery.counterup.min.js
+    │   ├── jquery.easing.min.js
+    │   ├── jquery.magnific-popup.min.js
+    │   ├── jquery.min.js
+    │   ├── owl.carousel.min.js
+    │   ├── popper.min.js
+    │   ├── waypoints.min.js
+    │   ├── wow.min.js
+    ├── scss/
+    │   ├── mixins/
+    │   ├── utilities/
+    │   ├── about.scss
+    │   ├── backtotop.scss
+    │   ├── blog.scss
+    │   ├── breadcrumb.scss
+    │   ├── buttons.scss
+    │   ├── contact.scss
+    │   ├── follow.scss
+    │   ├── footer.scss
+    │   ├── gallery.scss
+    │   ├── header.scss
+    │   ├── heading.scss
+    │   ├── hero.scss
+    │   ├── preloader.scss
+    │   ├── reboot.scss
+    │   ├── spacing.scss
+    │   ├── style.scss
+    ├── about.html
+    ├── blog.html
+    ├── contact.html
+    ├── gallery.html
+    ├── index.html
+    ├── single-blog.html
+    ├── style.css
+    ├── style.css.map
