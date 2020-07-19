@@ -1,114 +1,221 @@
 <!doctype html>
-<html lang="es">
+<html lang="en">
 
 <head>
-    <title id="title">sgavil</title>
-    <script>
-        var title = "sgavil";
-        var subtitle = "desarrollador de videojuegos";
-        document.getElementById("title").innerHTML = title;
-    </script>
-    <link rel="icon" type="image/jpg" href="icons/favicon.jpg">
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="libs/bootstrap/css/bootstrap.min.css">
-    <link rel="stylesheet" type="text/css" href="styles.css">
-    <link rel="stylesheet" type="text/css" href="icons/simple-line-icons-master/css/simple-line-icons.css">
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <!-- Bootstrap CSS -->
+  <link href="css/bootstrap.css" rel="stylesheet">
+  <title>Sergio Gavilán - Games Developer</title>
 </head>
 
-<body>
-    <header>
-        <div class="container center">
-            <h1 id="header" class="display-1">sgavil</h1>
-            <h3 id="subtitle">desarrollador de videojuegos</h3>
+<body class= "bg-custom-grad">
+  <div id=main>
+    <div id=aboutMe>
 
-            <div class="container-fluid" style="margin-top: 30px;">
-                <ul class="list-inline">
-                    <li class="list-inline-item "><a style="text-decoration: none;"></a>
-                        <p class="skills-list">C++</p>
-                    <li class="list-inline-item"><a style="text-decoration: none;">
-                        </a>
-                        <p class="skills-list">C#</p>
-                    </li>
-                    <li class="list-inline-item"><a style="text-decoration: none;">
-                        </a>
-                        <p class="skills-list">Unity</p>
-                    </li>
-                    <li class="list-inline-item"><a style="text-decoration: none;">
-                        </a>
-                        <p class="skills-list">Android Studio</p>
-                    </li>
+      <!-- About me card-->
 
-                </ul>
+      <div class="card rounded mx-auto shadow" id="cardContainer"  >
+
+        <div class="card-header">
+          <h1>  About me 🎮</h1>
+        </div>
+        <div class="card-body">
+          <div class="aboutMeContainer" >
+            <div id="authorIMGContainer">
+              <img src="images/author.jpg" href="www.google.es" class="img-fluid " alt="SergioGavilanIMG" id="authorIMG">
+      </div>
+
+        <div id="meDescription"  >
+          <p class="card-text">
+          <h5 class="card-title" id="iamName" > <i> I am Sergio Gavilán Fernández.</i></h5>
+
+          Game programming related topics are my passion, such as game engine programming, graphics (VFX) or gameplay
+          programming. I love to continuously learn about different fields of game developement.
+<br><br>
+          My strongest skills are my fast learning, creativity solving problems and my continuous craving for knowledge. I like to 
+          work with multidisciplinary people to hear and learn from them.
+
+          </p>
+          <div class="d-flex justify-content-center " >
+           
+            <a href="https://github.com/sgavil" target="_blank" class="iconLinks w-15 icons-dist"><img class="img-fluid" src="images/icons/github_ic.png" alt="Ic"></a>
+          
+              <a href="https://www.linkedin.com/in/sgavil/"  target="_blank" class="iconLinks w-15 icons-dist"><img class="img-fluid"  src="images/icons/linkedin_ic.png"  alt="linkedinIcon" ></a>
+                <a href="mailto:ssjsrgx@gmail.com"  target="_blank" class="iconLinks w-15 icons-dist"><img class="img-fluid" src="images/icons/email_ic.png"  alt="emailIc" ></a>
             </div>
 
-            <div class="container-fluid" style="margin-top: 30px;">
-                <ul class="list-inline">
-                    <li class="list-inline-item "><a style="text-decoration: none;" href="https://github.com/srgssj"
-                            target="_blank">
-                            <i class="ico icon-social-github"> </i> </a></li>
-                    <li class="list-inline-item"><a style="text-decoration: none;"
-                            href="https://www.linkedin.com/in/sgavil/" target="_blank"> <i
-                                class="ico  icon-social-linkedin"></i> </a>
-                    </li>
-                    <li class="list-inline-item"><a style="text-decoration: none;" href="https://twitter.com/sgavil01"
-                            target="_blank"><i class="ico  icon-social-twitter"></i></a>
-                    </li>
-                    <li class="list-inline-item"><a style="text-decoration: none;" href="mailto:ssjsrgx@gmail.com"><i
-                                class="ico icon-envelope"></i></a></li>
-                </ul>
+            <div class="d-flex justify-content-center">
+              <p>PDF resume available here</p>
             </div>
-
         </div>
+      </div>
         </div>
-        <script>
-            document.getElementById("header").innerHTML = title;
-            document.getElementById("subtitle").innerHTML = subtitle;
-        </script>
+      </div>
+    </div>
+
+    <!-- Work Experience card-->
+    <div class="card rounded mx-auto shadow " id="cardContainer">
+      <div class="card-header">
+        <h1> Work experience 🖥️</h1>
+      </div>
+
+      <!--FONCE work-->
+      <div class="jumbotron text-justify" id="customJumbo">
+        <div class="display-4"><b><span>Fundación ONCE / Inserta</span></b></div>
+        <p class="lead">Android Developer</p>
+        <p class="workTime">
+          November 2019 - Present
+        </p>
+        <p class="workTechnologies">Java, ARCore, Android Studio, XML, Firebase</p>
+        <p class="workDescription" >Responsible for the development of the continuation of the application ARbility
+          implementing different accessibility
+          elements checkers and various profiles with Firebase.</p>
+      </div>
 
 
-    </header>
-    <div class="container" id="autogenerated">
-        <a href="https://firsttry.itch.io/replanet" target="_blank" role="button">
-            <img class="thumb" src="content/replanet/1.jpg" alt="replanet"><img>
-        </a>
-
-        <a href="https://osoc-es.github.io/arbility/" target="_blank" role="button"> <img class="thumb"
-                src="content/arbility/1.jpg" alt="arbility"> </a>
-
-        <a href="https://ruiderillo.itch.io/sinkbiosis" target="_blank" role="button"> <img class="thumb"
-                src="content/sinkbiosis/1.jpg" alt="sinkbiosis"> </a>
-
-        <a href="https://github.com/xBlacKnife/Proyecto-III" target="_blank" role="button"> <img class="thumb"
-                src="content/p_a_r_k//1.jpg" alt="canyon">
-        </a>
-
+      <!--Osoc work-->
+      <div class="jumbotron text-justify" id="customJumbo">
+        <div class="display-4"><b><span>Open Summer of Code</span></b></div>
+        <p class="lead">Android Developer</p>
+        <p class="workTime">
+          July 2019 - August 2019 (2 months)
+        </p>
+        <p class="workTechnologies">Java, ARCore, Android Studio, XML</p>
+        <p class="workDescription">Responsible for the development of an Android prototype application (called ARbility)
+          that uses Augmented Reality
+          to measure accesibility (focused on people with reduced mobility). </p>
+      </div>
 
     </div>
-    <footer id="footer">
-        <script type="text/javascript" src="libs/jquery/jquery.min.js"></script>
-        <script type="text/javascript" src="libs/bootstrap/js/bootstrap.min.js"></script>
-        <script>
-            $(document).ready(function () {
-                // close modal on ESC key up
-                $(document).bind("keyup", null, function (event) {
-                    if (event.keyCode === 27) {
-                        $("[id$=Modal]").modal('hide');
-                    }
-                });
 
-                // when modal is open and browser back button is pressed
-                // hide modal instead of going back to last visited website
-                $("[id$=Modal]").on("shown.bs.modal", function (e) {
-                    history.pushState({ 'modal': 'open' }, "modal");
-                });
-                window.onpopstate = function (event) {
-                    $("[id$=Modal]").modal('hide');
-                    event.preventDefault();
-                };
-            });
-        </script>
-    </footer>
+
+  <!-- Projects  card-->
+  <div class="card rounded mx-auto shadow" id="cardContainer">
+    <div class="card-header">
+      <h1> Projects 🚧</h1>
+    </div>
+
+
+    <!--P.A.R.K-->
+    <div class="jumbotron text-justify" id="customJumbo">
+      <div class="display-4"><b><span>SolutionDears: C++ and OGRE3D Game Engine</span></b></div>
+      <p class="projectDescription"><b>C++ / OGRE3D Game Engine</b> from scratch. Component-Entity-System based,
+        FMOD for Audio, Bullet physics engine, CEGUI for interfaces, Entities factory using JSON as data provider,
+        terrain managment
+        through JSON files, scenes manager...<br>
+
+      <p>After finishing the engine, <b>P.A.R.K (Pure Accurate Roaller Koaster) a Theme Park Managment Simulator
+          Game</b> was created with the engine to test its limitations and capabilities. Both the engine and the game
+        can be found in this repository: <a
+          href="https://github.com/xBlacKnife/Proyecto-III">https://github.com/xBlacKnife/Proyecto-III</a> </p>
+    </div>
+
+    <!--Replanet-->
+    <div class="jumbotron text-justify" id="customJumbo">
+      <div class="display-4"><b><span>Replanet: Global Game Jam 2020</span></b></div>
+      <p class="projectDescription">Replanet is a gamed developed in <b>Unity for the Global Game Jam 2020</b>.
+         It recieved both 2 awards given in Madrid's headquarters and won the Levelea awards 2020. Game can be found here
+           <a href="https://globalgamejam.org/2020/games/replanet-9">https://globalgamejam.org/2020/games/replanet-9</a> and repository 
+           in this link <a href="https://github.com/JavierCordero/GlobalGameJam2020"> https://github.com/JavierCordero/GlobalGameJam2020</a>.</p>
+    </div>
+   
+    <!--Snow cousins-->
+    <div class="jumbotron text-justify" id="customJumbo">
+      <div class="display-4"><b><span>Snow Cousins: JS and Phaser game</span></b></div>
+      <p class="projectDescription">
+        Snow Cousins is a <b>Javascript and Phaser</b> clone from the 90s arcade game "Snow Bros" made by Toaplan. It was developed to be included in the
+        Universidad Complutense de Madrid's Retro Games Museum. 
+
+        <a href="https://srgxv1.github.io/SnowCousinsRemake/src/">https://srgxv1.github.io/SnowCousinsRemake/src/</a>
+      </p>
+    </div>
+
+    <!--Switch Dash-->
+    <div class="jumbotron text-justify" id="customJumbo">
+      <div class="display-4"><b><span>Switch Dash Clone</span></b></div>
+      <p class="projectDescription">University project. <b>Cross-platform game</b> for Windows Desktop and Android
+        developed using
+        <b>Java in Android Studio.</b> <i>(Platforms abstraction, JAVA Swing for rendering, unique game logic for both
+          platforms).</i>
+        <a href="https://github.com/sgavil/VPM/tree/master/Practica%201">https://github.com/sgavil/SwitchDashClone</a>
+      </p>
+    </div>
+
+  </div>
+
+  <!-- Skills  card-->
+  <div class="card rounded mx-auto shadow" id="cardContainer">
+    <div class="card-header">
+      <h1>  Skills 🔧 </h1>
+    </div>
+
+    <div class="d-flex"  id="skillContainer">
+      <div class="card"  id="skillCard">
+        <div class="card-body">
+          <h5 class="card-title">Programming Languages</h5>
+          <p class="card-text">Modern C++, C#, C, Java, Python, JavaScript.</p>
+
+        </div>
+      </div>
+
+      <div class="card"  id="skillCard">
+        <div class="card-body">
+          <h5 class="card-title">Video Game Technologies</h5>
+          <p class="card-text">Unity 3D, Android Studio, OGRE3D, SDL, Blender.</p>
+
+        </div>
+      </div>
+
+      <div class="card"  id="skillCard">
+        <div class="card-body">
+          <h5 class="card-title">Video Games Concepts</h5>
+          <p class="card-text">Game Engine Architecture and internals, AI for Games, Telemetry and Usability for Games.</p>
+
+        </div>
+      </div>
+    
+
+      <div class="card"  id="skillCard">
+        <div class="card-body">
+          <h5 class="card-title">Attitude</h5>
+          <p class="card-text">Hard Worker, Self-learner, Curious, Proficient team player, Fast learner.</p>
+
+        </div>
+      </div>
+   
+      <div class="card"  id="skillCard">
+        <div class="card-body">
+          <h5 class="card-title">Others</h5>
+          <p class="card-text">Git, Premake, HTML, CSS, Scrum, LaTeX.</p>
+        </div>
+    </div>
+  </div>
+
+  </div>
+
+
+</div>
+  <!-- Main end div-->
+  </div>
+
+  <!-- Optional JavaScript -->
+  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+    integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+    integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
+    crossorigin="anonymous"></script>
 </body>
+
+<footer>
+  <p class="footer-design">Sergio Gavilán Fernández - ssjsrgx@gmail.com</p>
+</footer>
 
 </html>
