@@ -10,6 +10,8 @@ p, h1,h2,h3,h4,li {
 
 }
 
+
+
 .box {
     display: flex;
     margin-left: 2rem;
@@ -191,3 +193,33 @@ h1{
     padding-right: 0rem;
 
   }
+
+  @media screen and (max-width: 800px)
+  {
+    
+      .box{
+          flex-direction: column;
+      }
+      .authorImg{
+          margin: auto;
+      }
+      .boxText p,.boxText h3{
+          text-align: center;
+          margin-left: auto;
+          margin-right: auto;
+          padding: 0%;
+      }
+      .rowIcons{
+          justify-content: center; /* align horizontal */
+          align-items: center; /* align vertical */
+          margin: auto;
+      }
+  
+  
+      .box p{
+          text-align: center;
+          margin-left: auto;
+          margin-right: auto;
+          padding: 0%;
+      }
+    }
